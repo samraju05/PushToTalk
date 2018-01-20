@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="cardOutline">#d3d3d3</color>
+    <color name="push_to_talk_background">#555555</color>
+    <color name="card_dark">#111111</color>
+    <color name="list_highlight_colour">#55CCCCCC</color>
+
+    <color name="popup_menu_item_background">#555555</color>
+    <color name="popup_menu_item_disabled_mask">#66000000</color>
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <color name="solarized_base03">#002b36</color>
+    <color name="solarized_base02">#073642</color>
+    <color name="solarized_base01">#ff000000</color>
+    <color name="solarized_base00">#ff000000</color>
+    <color name="solarized_base0">#839496</color>
+    <color name="solarized_base1">#93a1a1</color>
+    <color name="solarized_base2">#ff4179a7</color>
+    <color name="solarized_base3">#afbdd4</color>
+
+    <color name="ripple_talk_state_on">@color/holo_red_dark</color>
+    <color name="ripple_talk_state_off">#FFFFFFFF</color>
+    <color name="ripple_talk_state_disabled">#FF666666</color>
+    <color name="ripple_talk_state_suppressed">@color/holo_green_dark</color>
+    <color name="ripple_talk_state_server_muted">@color/holo_blue_dark</color>
+    <color name="ripple_talk_state_server_deafened">@color/holo_blue_dark</color>
+</resources>

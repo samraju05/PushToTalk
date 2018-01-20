@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channelcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChannelActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/channel_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.76">
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/channel_tab_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"/>
+    </android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+        android:id="@+id/pushtotalk_view"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.07"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/pushtotalk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ptt"
+            android:textColor="?android:attr/textColorPrimaryInverse"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:elevation="6dip"
+            android:background="@drawable/mybutton"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--
+            <LinearLayout
+            android:id="@+id/pushtotalk_view"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.07"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="?attr/colorPrimary">
+
+            <Button
+                android:id="@+id/pushtotalk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ptt"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:background="?attr/selectableItemBackground"/>
+    </LinearLayout>
+
+
+    -->

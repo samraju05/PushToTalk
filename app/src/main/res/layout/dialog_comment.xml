@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/comment_tabhost">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/comment_tab_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <WebView
+                        android:layout_width="320dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/comment_view"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/comment_tab_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/comment_edit"
+                        android:inputType="textMultiLine|textNoSuggestions"
+                        android:gravity="top|left"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

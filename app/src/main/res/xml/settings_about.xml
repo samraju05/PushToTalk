@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/app_name"
+        android:summary="@string/copyright"/>
+    <Preference
+        android:key="version"
+        android:title="@string/version"/>
+    <Preference
+        android:title="@string/acknowledgements"
+        android:summary="@string/acknowledgementsSum">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/acknowledgements_link"/>
+    </Preference>
+    <PreferenceCategory
+        android:title="@string/licenses">
+        <Preference android:title="@string/license_gplv3">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/license_gplv3_link"/>
+        </Preference>
+        <Preference android:title="@string/license_apache2">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/license_apache2_link"/>
+        </Preference>
+
+        <Preference>
+        </Preference>
+        <Preference>
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

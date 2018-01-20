@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jumble/Jumble.iml" filepath="$PROJECT_DIR$/Jumble/Jumble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Libnetcipher/Libnetcipher.iml" filepath="$PROJECT_DIR$/Libnetcipher/Libnetcipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PushToTalkTest.iml" filepath="$PROJECT_DIR$/PushToTalkTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

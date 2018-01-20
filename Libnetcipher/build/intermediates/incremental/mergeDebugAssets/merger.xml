@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\assets"/><source path="F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\build-types\debug\assets"/></dataSet></merger>

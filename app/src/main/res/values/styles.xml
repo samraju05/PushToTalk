@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Theme.QRPushToTalk" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="android:textColorSecondary">#666</item>
+        <item name="android:textColorPrimaryInverse">#FFF</item>
+        <item name="android:textColorSecondaryInverse">#AAA</item>
+
+        <item name="android:actionBarStyle">@style/SolarizedLightActionBar</item>
+        <item name="actionBarStyle">@style/SolarizedDarkActionBar</item>
+
+        <item name="colorPrimary">#454D5E</item>
+        <item name="colorPrimaryDark">#2F3440</item>
+        <item name="colorAccent">#454D5E</item>
+
+    </style>
+
+
+    <style name="Theme.QRPushToTalk.Solarized.Light" parent="@style/Theme.AppCompat.Light">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/solarized_base00</item>
+        <item name="android:textColorSecondary">@color/solarized_base01</item>
+        <item name="android:textColorPrimaryInverse">?android:textColorPrimary</item>
+        <item name="android:textColorSecondaryInverse">?android:textColorSecondary</item>
+
+        <item name="android:windowBackground">@color/solarized_base3</item>
+        <item name="android:colorBackground">@color/solarized_base3</item>
+
+        <item name="android:actionBarStyle">@style/SolarizedLightActionBar</item>
+        <item name="actionBarStyle">@style/SolarizedLightActionBar</item>
+
+        <item name="colorPrimary">@color/solarized_base2</item>
+        <item name="colorPrimaryDark">@color/solarized_base3</item>
+        <item name="colorAccent">@color/solarized_base2</item>
+
+        <!--<item name="cardStyle">@style/Theme.QRPushToTalk.Solarized.Light.CardView</item>-->
+    </style>
+
+    <style name="SolarizedLightActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/solarized_base2</item>
+        <item name="background">@color/solarized_base2</item>
+        <item name="android:titleTextStyle">@style/SolarizedLightActionBarText</item>
+        <item name="titleTextStyle">@style/SolarizedLightActionBarText</item>
+    </style>
+
+    <style name="SolarizedLightActionBarText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/solarized_base00</item>
+    </style>
+
+    <style name="Theme.QRPushToTalk.Solarized.Light.CardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/solarized_base2</item>
+    </style>
+
+    <style name="Theme.QRPushToTalk.Solarized.Dark" parent="@style/Theme.AppCompat">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/solarized_base0</item>
+        <item name="android:textColorSecondary">@color/solarized_base1</item>
+        <item name="android:textColorPrimaryInverse">?android:textColorPrimary</item>
+        <item name="android:textColorSecondaryInverse">?android:textColorSecondary</item>
+
+        <item name="android:windowBackground">@color/solarized_base03</item>
+        <item name="android:colorBackground">@color/solarized_base03</item>
+
+        <item name="android:actionBarStyle">@style/SolarizedDarkActionBar</item>
+        <item name="actionBarStyle">@style/SolarizedDarkActionBar</item>
+
+        <item name="colorPrimary">@color/solarized_base02</item>
+        <item name="colorPrimaryDark">@color/solarized_base03</item>
+        <item name="colorAccent">@color/solarized_base02</item>
+
+        <!--<item name="cardStyle">@style/QRPushToTalk.Solarized.Dark.CardView</item>-->
+    </style>
+
+    <style name="SolarizedDarkActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/solarized_base02</item>
+        <item name="background">@color/solarized_base02</item>
+        <item name="android:titleTextStyle">@style/SolarizedDarkActionBarText</item>
+        <item name="titleTextStyle">@style/SolarizedDarkActionBarText</item>
+    </style>
+
+    <style name="SolarizedDarkActionBarText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/solarized_base0</item>
+    </style>
+
+
+</resources>

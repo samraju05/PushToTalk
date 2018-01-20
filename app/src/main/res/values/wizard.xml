@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wizard_next">Next</string>
+    <string name="wizard_back">Back</string>
+    <string name="wizard_cancel">Cancel</string>
+    <string name="wizard_finish">Finish</string>
+    <string name="wizard_confirm_close">Are you sure you wish to quit the setup wizard? You can resume it at any time in the app\'s settings.</string>
+
+    <string name="wizard_welcome_title">Welcome to QRPushToTalk</string>
+
+    <string name="wizard_certificate_title">Create a Certificate</string>
+
+    <string name="wizard_audio_title">Setup Audio</string>
+
+    <string name="wizard_general_title">Useful Options</string>
+</resources>

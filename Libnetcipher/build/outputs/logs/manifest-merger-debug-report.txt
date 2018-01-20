@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:2:5-44
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:4:5-30
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:3:5-28
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+		INJECTED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml
+uses-sdk
+ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:6:5-73
+	android:targetSdkVersion
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:6:41-70
+	android:minSdkVersion
+		ADDED from F:\QR-PTT-PushToTalk-master\PushToTalkTest\Libnetcipher\AndroidManifest.xml:6:15-40

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qrptt="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_mute_button"
+        android:icon="@drawable/ic_action_microphone"
+        android:title="@string/mute"
+        qrptt:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/menu_deafen_button"
+        android:icon="@drawable/ic_action_audio"
+        android:title="@string/deafen"
+        qrptt:showAsAction="ifRoom"></item>
+
+</menu>
+
+    <!--  Search Option
+    <item android:id="@+id/menu_search" android:title="@string/search" qrptt:actionViewClass="android.support.v7.widget.SearchView" qrptt:showAsAction="ifRoom|collapseActionView" android:icon="@drawable/ic_action_search"></item>
+    -->
