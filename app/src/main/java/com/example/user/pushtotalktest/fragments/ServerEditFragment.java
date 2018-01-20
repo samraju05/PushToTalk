@@ -86,17 +86,7 @@ public class ServerEditFragment extends DialogFragment {
                         JSONObject myjson = new JSONObject(resultFromWebService);
                         errorResultFromJsonStr = myjson.get("result").toString();
                         errorMessageFromJsonStr = myjson.get("Message").toString();
-                        Log.d("","");
-                        Log.d("","");
-                        Log.d("+++++++++++++","+++++++++++++++++");
-                        Log.d("+++++++++++++","+++++++++++++++++");
-                        Log.d("","");
-                        Log.d("TO JSON EXEI",myjson.toString());
-                        Log.d("","");
-                        Log.d("+++++++++++++","+++++++++++++++++");
-                        Log.d("+++++++++++++","+++++++++++++++++");
-                        Log.d("","");
-                        Log.d("","");
+
                         if (myjson.get("result").toString().equals("0")) {
                             JSONObject myjsondata = myjson.getJSONObject("data");
                             CompanyNameStr = myjsondata.get("CompanyName").toString().replaceAll("\\s", "").trim();
@@ -113,37 +103,15 @@ public class ServerEditFragment extends DialogFragment {
                 }
                 if (validate()) {
                     Server server = createServer(shouldSave());
-                    if (!shouldSave()) mListener.connectToServer(server);
+                    if (!shouldSave())
+                        mListener.connectToServer(server);
                     dismiss();
                 }
             }
         });
     }
 
-    private class HttpAsyncTask extends AsyncTask<String, Void, String> {
 
-        @Override
-        protected String doInBackground(String... urls) {
-            return WebserviceGet(urls[0]);
-        }
-
-        @Override
-        protected void onPostExecute(String resultAfterPost) {
-        }
-    }
-
-    public String WebserviceGet(String jsonGuard) {
-        String kerverosString = "https://kerveroslive.com:29406/api/?data=";
-        try {
-            HttpRequest req = HttpRequest.get(kerverosString + jsonGuard).trustAllCerts().trustAllHosts();
-            resultFromWebService = req.trustAllCerts().trustAllHosts().body();
-            resultFromWebService = resultFromWebService.replace("(", "");
-            resultFromWebService = resultFromWebService.replace(")", "");
-            return resultFromWebService;
-        } catch (Exception e) {
-            return e.getMessage();
-        }
-    }
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -258,6 +226,31 @@ public class ServerEditFragment extends DialogFragment {
                 e.printStackTrace();
             }
             new HttpAsyncTask().execute(jsonGuard.toString());
+        }
+    }
+    private class HttpAsyncTask extends AsyncTask<String, Void, String> {
+
+        @Override
+        protected String doInBackground(String... urls) {
+            return WebserviceGet(urls[0]);
+        }
+
+        @Override
+        protected void onPostExecute(String resultAfterPost) {
+        }
+    }
+
+    public String WebserviceGet(String jsonGuard) {
+        Log.e("JSON",""+jsonGuard);
+        String kerverosString = "https://kerveroslive.com:29406/api/?data=";
+        try {
+            HttpRequest req = HttpRequest.get(kerverosString + jsonGuard).trustAllCerts().trustAllHosts();
+            resultFromWebService = req.trustAllCerts().trustAllHosts().body();
+            resultFromWebService = resultFromWebService.replace("(", "");
+            resultFromWebService = resultFromWebService.replace(")", "");
+            return resultFromWebService;
+        } catch (Exception e) {
+            return e.getMessage();
         }
     }
 
